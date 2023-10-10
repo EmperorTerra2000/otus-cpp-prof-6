@@ -6,7 +6,7 @@ project(matrix VERSION ${PROJECT_VESRION})
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(matrix ./src/main.cpp)
+add_executable(matrix src/main.cpp)
 
 target_include_directories(matrix PRIVATE include)
 
